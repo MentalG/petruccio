@@ -8,7 +8,7 @@ const Products = () => {
 		<div className='product-wrapper'>
 			<div className='product-header'>
                 Redefining
-                <span>// JERKY</span>
+                <span>{'// JERKY'}</span>
             </div>
 		</div>
 	);
