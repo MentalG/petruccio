@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className='navbar-image' style={{ backgroundImage: `url(${logo})` }}/>
             <div className='navbar-cart' >
                 <img src={cart} alt={'cart'}/>
-                <div>{`Cart(${0})`}</div>
+                <div>{`Cart (${0})`}</div>
                 <div>Login</div>
             </div>
         </div>

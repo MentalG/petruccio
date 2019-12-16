@@ -1,8 +1,13 @@
 .navbar {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	width: 100%;
+    width: 100%;
     padding-top: 10px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
 .navbar * {
@@ -27,11 +32,12 @@
 .navbar-cart {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	justify-self: right;
+    justify-self: right;
 	align-self: center;
     font-size: 1.25rem;
 }
 
 .navbar-cart * {
 	align-self: center;
+    justify-self: right;
 }
